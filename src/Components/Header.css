@@ -1,0 +1,64 @@
+.welcomeTraveller{
+    line-height: 0.0;
+    font-size: 32px;  
+    margin-left: 50px;  
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    font-family: "Beiruti", sans-serif;
+
+}
+
+.TravellerWelcome {
+    margin-left: 150px;
+}
+
+.mainButtons{
+    position: fixed;
+    top: 70px;
+    right: 100px;
+    display: flex;
+    gap: 150px;    
+}
+
+.meetMeButton, .contactButton, .projectsButton {
+    font-size: 40px;
+    color: white;
+    background: none;
+    border: none;
+    position: relative;
+    font-family: "Beiruti", sans-serif;
+
+}
+
+.meetMeButton::after,
+.contactButton::after,
+.projectsButton::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Animate underline on hover for each button */
+.meetMeButton:hover::after,
+.contactButton:hover::after,
+.projectsButton:hover::after {
+    transform: scaleX(1);
+}
+
+.underLine {
+    background-color: white;
+    position: fixed;
+    width: auto;
+    height: 2px;
+    top: 150px;
+    left: 100px;
+    right: 100px;
+}
