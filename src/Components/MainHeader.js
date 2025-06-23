@@ -2,32 +2,6 @@ import './Header.css';
 
 
 function App() {
-  return (
-    <div className='mainSite'>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap"></link>
-      <header className='Header'>
-        <div className='headerMargin'>
-          <HBox>
-            <VBox className = 'VBoxMargin'>
-              <div className='welcomeTraveller'>
-                <h1>Welcome</h1>
-                <h2 className='TravellerWelcome'>Traveller</h2>
-              </div>
-            </VBox>
-            <HBox>
-              <div className='mainButtons'>
-                <button className='meetMeButton'>Meet me</button>
-                <button className='projectsButton'>Projects</button>
-                <button className='contactButton'>Contact</button>
-              </div>
-              </HBox>
-          </HBox>
-          <div className='underLine'></div>
-        </div>
-      </header>
-    </div>
-  );
-}
 
 const HBox = ({ children, style }) => {
   return (
@@ -43,6 +17,33 @@ const VBox = ({ children, style }) => {
       {children}
     </div>
   )
+}
+
+  return (
+    <div className='mainSite'>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap"></link>
+      <header className='Header'>
+        <div className='headerMargin'>
+          <HBox>
+            <VBox className = 'VBoxMargin'>
+              <div className='welcomeTraveller'>
+                <h1>Welcome</h1>
+                <h2 className='TravellerWelcome'>Traveller</h2>
+              </div>
+            </VBox>
+            <HBox>
+              <div className='mainButtons'>
+                <button className='meetMeButton'>Meet me</button>
+                <button className='projectsButton' onClick={() => window.location.href = 'Projects.js'}>Projects</button>
+                <button className='contactButton'>Contact</button>
+              </div>
+              </HBox>
+          </HBox>
+          <div className='underLine'></div>
+        </div>
+      </header>
+    </div>
+  );
 }
 
 export default App;

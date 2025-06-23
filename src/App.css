@@ -1,29 +1,43 @@
+.mainSite {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
 .ValenciaImage {
   text-align: center;
   background: url(./Pictures/ValenciaFallas.JPG) no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 100vh; 
+  scroll-snap-align: start;
+
 }
 
-.whitePage{
-  background-color: rgb(0, 0, 0);
-  height: 950px;
+.deniaPage{
+  background: url(./Pictures/Denia.JPG) no-repeat;
+  height: 100vh;
   background-size: cover;
+  position: relative;
+  scroll-snap-align: start;
+
 }
 
 .budapestPage {
   background: url(./Pictures/BudapestCastle.jpg) no-repeat;
   background-size: cover;
-  height: 1200px;
+  height: 100vh;
+  scroll-snap-align: start;
+
 }
 
 .planeIcon {
   position: fixed;
   right: 47px;
-  top: 400px;
   width: 100px;
   height: auto;
   transition: 3s ease-in-out, transform 0.6s ease-in-out;
+  z-index: 1;
 }
 
 .planeIcon.rotated {
@@ -36,6 +50,8 @@
   top: 450px;
   display: grid;
   gap: 100px;
+  z-index: 1;
+
 }
 
 .whiteDot {
@@ -43,4 +59,52 @@
   height: 15px;
   border-radius: 100px;
   background: white;
+}
+
+.imageAddition {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  margin-top: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.linearTopGradient {
+  background-color: black;
+  background: linear-gradient(to top, #00000080, #61616100);
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 300px;
+}
+
+.linearBottomGradient {
+  background-color: black;
+  background: linear-gradient(to bottom, #00000093, #61616100);
+  width: 100%;
+  height: 50px;
+  bottom: 300px;
+  position: absolute;
+}
+
+.textAddition {
+  color: white;
+  margin-left: 200px;
+  padding-right: 300px;
+  margin-top: 15px;
+}
+
+.textAddition p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.imageProfile {
+  margin-left: 300px;
+  margin-top: 20px;
+  border: 5px solid white;
+  width: auto;
+  height: 350px;
 }
