@@ -1,110 +1,75 @@
-.mainSite {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-  scroll-behavior: smooth;
-}
-
-.ValenciaImage {
+.airportSplit {
   text-align: center;
-  background: url(./Pictures/ValenciaFallas.JPG) no-repeat;
-  background-size: cover;
-  height: 100vh; 
-  scroll-snap-align: start;
-
-}
-
-.deniaPage{
-  background: url(./Pictures/Denia.JPG) no-repeat;
-  height: 100vh;
-  background-size: cover;
-  position: relative;
-  scroll-snap-align: start;
-
-}
-
-.budapestPage {
-  background: url(./Pictures/BudapestCastle.jpg) no-repeat;
+  background: url(./Pictures/AirportSplit.JPG) no-repeat;
   background-size: cover;
   height: 100vh;
   scroll-snap-align: start;
-
-}
-
-.planeIcon {
-  position: fixed;
-  right: 47px;
-  width: 100px;
-  height: auto;
-  transition: 3s ease-in-out, transform 0.6s ease-in-out;
-  z-index: 1;
-}
-
-.planeIcon.rotated {
-  transform: rotate(180deg);
-}
-
-.VBoxWhiteDots {
-  position: fixed;
-  right: 90px;
-  top: 450px;
-  display: grid;
-  gap: 100px;
-  z-index: 1;
-
-}
-
-.whiteDot {
-  width: 15px;
-  height: 15px;
-  border-radius: 100px;
-  background: white;
-}
-
-.imageAddition {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 400px;
-  position: absolute;
-  margin-top: 350px;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-.linearTopGradient {
-  background-color: black;
-  background: linear-gradient(to top, #00000080, #61616100);
-  width: 100%;
-  height: 50px;
-  position: absolute;
-  top: 300px;
+.textAndButton {
+  position: fixed;
+  top: 200px;
 }
 
-.linearBottomGradient {
-  background-color: black;
-  background: linear-gradient(to bottom, #00000093, #61616100);
-  width: 100%;
-  height: 50px;
-  bottom: 300px;
-  position: absolute;
-}
-
-.textAddition {
+.textAndButton p {
   color: white;
-  margin-left: 200px;
-  padding-right: 300px;
-  margin-top: 15px;
+  font-family: "Beiruti", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
 }
 
-.textAddition p {
-  font-size: 20px;
-  font-weight: 500;
+.textAndButton button{
+background-color: transparent;
+border-radius: 25%;
+font-size: 25px;
+font-family: "Beiruti", sans-serif;
+font-weight: 500;
+width: 140px;
+height: 50px;
+cursor: pointer;
+border: none;
+margin-top: 50px
 }
 
-.imageProfile {
-  margin-left: 300px;
-  margin-top: 20px;
-  border: 5px solid white;
-  width: auto;
-  height: 350px;
+.textAndButton button::before {
+  content: 'FOR FREE';
+  background: black;
+  opacity: 0;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  position: relative;
+  transform-origin: top;
+  transition: all 0.5s;
+  border-radius: 30px;
+  box-shadow: 0 0px 10px 30px rgb(0, 0, 0);
 }
+
+.textAndButton button::after {
+  content: 'PURCHASE';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  transform-origin: top;
+  transform: translate(0%, -100%);
+  transition: all 0.5s;
+  border-radius: 30px;
+  box-shadow: 0 0px 10px 20px rgb(255, 255, 255);
+}
+
+.textAndButton button:hover {
+  color: white;
+}
+
+.textAndButton button:hover::before {
+left: 0;
+right: 0;
+opacity: 1;
+}
+

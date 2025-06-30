@@ -1,0 +1,5 @@
+.backgroundHalf {
+    background: url(./Pictures/MeetMeOne.jpg) no-repeat;
+    height: 100vh;
+    background-size: contain;
+}

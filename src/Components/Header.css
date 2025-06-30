@@ -1,13 +1,13 @@
 .welcomeTraveller{
     line-height: 0.0;
     font-size: 32px;  
-    margin-left: 50px;  
-    margin-top: 30px;
+    position: fixed;
+    top: 10px;
+    left: 20px;
     color: rgb(255, 255, 255);
     position: fixed;
     font-family: "Beiruti", sans-serif;
-     z-index: 1;
-
+    z-index: 1;
 }
 
 .TravellerWelcome {
@@ -16,7 +16,7 @@
 
 .mainButtons{
     position: fixed;
-    top: 70px;
+    top: 50px;
     right: 100px;
     display: flex;
     gap: 150px;    
@@ -60,7 +60,7 @@
     position: fixed;
     width: auto;
     height: 2px;
-    top: 150px;
+    top: 130px;
     left: 100px;
     right: 100px;
      z-index: 1;

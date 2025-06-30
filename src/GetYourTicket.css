@@ -1,0 +1,19 @@
+.textAndImageButton {
+  position: fixed;
+  top: 200px;
+}
+
+.textAndImageButton p {
+  color: white;
+  font-family: "Beiruti", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.textAndImageButton Button {
+    border: none;
+    background: transparent;
+    margin-top: 30px;
+}
+
