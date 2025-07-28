@@ -1,0 +1,32 @@
+.sectionBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.bodyimage {
+     width: 28.73vw;
+}
+
+.birdWindow {
+    position: absolute;
+    top: 40px;
+}
+
+.buttonHover {
+    background-color: transparent;
+    border: none;
+    opacity: 0;
+}
+
+.birdWindow:hover .buttonHover {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.buttonHover img{
+    width: 29.5vw;
+}  
+
+

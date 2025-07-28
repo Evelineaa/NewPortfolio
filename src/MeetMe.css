@@ -1,5 +1,306 @@
-.backgroundHalf {
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuBox img{
+    background: transparent;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    top:25px;
+    left: 25px;
+}
+
+.menuBox button {
+width: 2.5vw;
+height: 2.5vw;
+margin: 20px;
+background-color: transparent;
+border: none;
+
+}
+
+@media (max-width: 1200px) {
+
+    .imageButtons button {
+        width: 30vw;
+        margin-top: 20vw;
+    }
+
+    .northernIrelandImage img {
+        margin-top: -280px;
+    }
+
+    .tallinnImage img {
+        margin-top: -10vw;
+        margin-left: -50px;
+    }
+
+    .BudapestOneImage img {
+        margin-top: -10vw;
+        margin-left: 0px;
+    }
+
+    .BudapestTwoImage img {
+        margin-top: -10vw;
+        margin-right: 20px;
+    }
+
+    .ValenciaImage img {
+        margin-top: -18vw;
+        margin-left: -25px;
+    }
+
+    .backgroundWhite img {
+        margin-left: -110px;
+    }
+
+    .firstMeetMe {
+        margin-top: 120px;
+    }
+    
+    .justifyLetters {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 40px;
+    }
+
+    .letterButtonOne, .letterButtonTwo {
+        margin-left: 300px;
+        margin-right: -150px;
+        padding-bottom: 200px;
+    }  
+}
+
+.backgroundLines {
+    width: 100%;
+}
+
+.fullWidthBackground {
+    width: 100%;
+}
+
+.backgroundWhite img{
     background: url(./Pictures/MeetMeOne.jpg) no-repeat;
-    height: 100vh;
-    background-size: contain;
+    width: 28vw;
+    height: 32vw;
+    margin-right: 50px;
+}
+
+.backgroundWhite {
+    display: flex;
+    flex-direction: row;
+    margin: 150px 100px 0px 250px;
+    box-sizing: border-box;
+}
+
+.aboutMeText {
+    margin-left: 50px;
+}
+
+.aboutMeText p{
+    color: black;
+    font-family: "Beiruti", sans-serif;
+    font-size: 1.55vw;
+    padding-right: 80px;
+}
+
+.JustifyContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.imageButtons {
+    background-color: transparent;
+    width: 80vw;
+    height: 150vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.backgroundLines{
+    margin-top: -5vw;
+}
+
+.northernIrelandImage{
+    width: 35vw;
+    background: transparent;
+    border: none;
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-left: 50px;
+}
+
+.hoverTextOne {
+    margin-top: 50px;
+    font-size: 1.55vw;
+    font-family: "Beiruti", sans-serif;
+    margin-left: 50px;
+    margin-right: 100px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.buttonWithText:hover .hoverTextOne {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.hoverTextTwo{
+    font-size: 1.55vw;
+    font-family: "Beiruti", sans-serif;
+    margin-right: 100px;
+    margin-left: 120px;
+    margin-top: -50px;
+    height: 15vw;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.hoverTextThree {
+    font-size: 1.55vw;
+    font-family: "Beiruti", sans-serif;
+    margin-right: 100px;
+    margin-left: 120px;
+    margin-top: 100px;
+    height: 15vw;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.hoverTextFourth {
+    font-size: 1.55vw;
+    font-family: "Beiruti", sans-serif;
+    margin-right: 100px;
+    margin-left: 120px;
+    margin-top: 0px;
+    height: 15vw;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+
+.buttonWithText:hover .hoverTextTwo, .buttonWithText:hover .hoverTextThree,.buttonWithText:hover .hoverTextFourth  {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.boldText{
+ font-weight: 600;
+}
+
+.northernIrelandImage img{
+    width: 32vw;
+}
+
+.tallinnImage img{
+    width: 36vw;
+}
+
+.BudapestTwoImage img{
+    width: 32vw;
+}
+
+.ValenciaImage img {
+    width: 34vw;
+}
+
+.JustifyRight {
+    display: flex;
+    justify-content: right;
+    height: 30vw;
+    margin-top: -50px;
+}
+
+.tallinnImage {
+    width: 35vw;
+    background: transparent;
+    border: none;
+    margin-left: 80px;
+}
+
+.JustifyLeft {
+    display: flex;
+    justify-content: left;
+    height: 30vw;
+}
+
+.buttonWithText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.BudapestOneImage {
+    border: none;
+    background-color: transparent;
+    margin-top: -40px; 
+    margin-left: 15px;
+    margin-right: 150px;
+}
+.BudapestOneImage img{
+    width: 32vw;
+    height: 25vw;
+}
+
+.BudapestTwoImage {
+border: none;
+background-color: transparent;
+margin-top: 6vw;
+margin-right: 50px;
+}
+
+.ValenciaImage {
+    border: none;
+    background: transparent;
+    margin-left: 20px;
+    margin-right: 110px;
+}
+
+.justifyLetters {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 10vh;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 100px;
+}
+
+.letterButtonOne {
+    background: transparent;
+    border: none;
+}
+
+.hoverTextLetters {
+    margin-right: 260px;
+    font-size: 0.9vw;
+    opacity: 0;
+}
+
+.justifyLetters:hover .hoverTextLetters, .justifyLetters:hover .hoverTextLettersTwo  {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.justifyLetters img {
+    width: 3vw;
+}
+
+.letterButtonTwo {
+    background: transparent;
+    border: none;
+}
+
+.hoverTextLettersTwo {
+    margin-right: 200px;
+    font-size: 0.9vw;
+    opacity: 0;
 }

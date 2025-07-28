@@ -1,36 +1,38 @@
-.welcomeTraveller{
+.welcomeTraveller {
     line-height: 0.0;
-    font-size: 32px;  
-    position: fixed;
+    font-size: 32px;
     top: 10px;
     left: 20px;
     color: rgb(255, 255, 255);
     position: fixed;
     font-family: "Beiruti", sans-serif;
     z-index: 1;
+    margin-left: 30x;
 }
 
 .TravellerWelcome {
     margin-left: 150px;
 }
 
-.mainButtons{
+.mainButtons {
     position: fixed;
     top: 50px;
     right: 100px;
     display: flex;
-    gap: 150px;    
+    gap: 150px;
     z-index: 1;
 }
 
-.meetMeButton, .contactButton, .projectsButton {
+.meetMeButton,
+.contactButton,
+.projectsButton {
     font-size: 40px;
     color: white;
     background: none;
     border: none;
     position: relative;
     font-family: "Beiruti", sans-serif;
-
+    background-color: transparent;
 }
 
 .meetMeButton::after,
@@ -63,5 +65,45 @@
     top: 130px;
     left: 100px;
     right: 100px;
-     z-index: 1;
+    z-index: 1;
+}
+
+.darkHeader .Header h2,
+.darkHeader .Header span {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.darkHeader .Header .underLine {
+    background-color: black;
+}
+.darkHeader .Header {
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    height: 6.8vw;
+    opacity: 1;
+    z-index: 1;
+}
+
+.darkHeader .Header h1 {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    margin-left: 80px;
+}
+
+@media (max-width: 1000px) {
+    .Header h1, .Header h2, .Header span{
+        font-size: 24px;
+    }
+
+    .Header .mainButtons {
+        margin-top: -35px;
+        gap: 20px;
+    }
+    .Header .underLine {
+        margin-top: -65px;
+    }
+    
 }

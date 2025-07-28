@@ -1,7 +1,12 @@
 import './Header.css';
+import { useNavigate } from 'react-router-dom';
 
 
-function App() {
+function MainHeader({ visible = true, hoverOnly = false, theme = 'light' }) {
+  const navigate = useNavigate();
+  
+  
+  if (hoverOnly && !visible) return null;
 
 const HBox = ({ children, style }) => {
   return (
@@ -20,7 +25,7 @@ const VBox = ({ children, style }) => {
 }
 
   return (
-    <div className='mainSite'>
+    <div className={`mainSite ${theme === 'dark' ? 'darkHeader' : 'lightHeader'}`}>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap"></link>
       <header className='Header'>
         <div className='headerMargin'>
@@ -33,9 +38,15 @@ const VBox = ({ children, style }) => {
             </VBox>
             <HBox>
               <div className='mainButtons'>
-                <button className='meetMeButton'>Meet me</button>
-                <button className='projectsButton' onClick={() => window.location.href = 'Projects.js'}>Projects</button>
-                <button className='contactButton'>Contact</button>
+                <button className='meetMeButton'>
+                  <span>Meet me</span>
+                  </button>
+                <button className='projectsButton' onClick={() => navigate('/Projects')}>
+                  <span>Projects</span>
+                  </button>
+                <button className='contactButton'>
+                  <span>Contact</span>
+                  </button>
               </div>
               </HBox>
           </HBox>
@@ -46,4 +57,4 @@ const VBox = ({ children, style }) => {
   );
 }
 
-export default App;
+export default MainHeader;
