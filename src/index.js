@@ -6,7 +6,7 @@ import Projects from './Projects';  // import your Projects component
 import GetYourTicket from './GetYourTicket';
 import MeetMe from './MeetMe';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ProjectsMenu from './ProjectsMenu';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
