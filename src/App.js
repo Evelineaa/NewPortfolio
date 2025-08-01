@@ -1,5 +1,6 @@
 import './App.css';
 import MainHeader from './Components/MainHeader.js';
+import
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
       <MainHeader theme="light" />
       <div className='textAndButton'>
         <p>LET’S GET YOU A FREE TICKET FOR YOUR NEXT JOURNEY</p>
-        <button onClick={() => window.location.href = 'GetYourTicket'}></button>
+        <button onClick={() => navigate('/GetYourTicket')}></button>
       </div>
     </section>
   );
