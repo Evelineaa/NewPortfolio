@@ -8,7 +8,8 @@ function Projects() {
     const navigate = useNavigate();
 
     return (
-        <section className='sectionBody'>
+        <body className='sectionBody'>
+        <div>
             <MainHeader theme='light'></MainHeader>
             <div className='bodypart'>
             <img className='bodyimage' src={window}></img>
@@ -18,7 +19,8 @@ function Projects() {
             </button>
             </div>
      </div>
-  </section>
+  </div>
+  </body>
     );
 };
 

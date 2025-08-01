@@ -106,4 +106,7 @@
         margin-top: -55px;
     }
     
+    .darkHeader .Header {
+         height: 7.9vw;
+    }
 }

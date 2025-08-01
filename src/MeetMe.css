@@ -167,7 +167,6 @@ border: none;
     font-size: 1.55vw;
     font-family: "Beiruti", sans-serif;
     margin-right: 100px;
-    margin-left: 120px;
     margin-top: 100px;
     height: 15vw;
     opacity: 0;
@@ -242,7 +241,7 @@ border: none;
     border: none;
     background-color: transparent;
     margin-top: -40px; 
-    margin-left: 15px;
+    margin-left: 90px;
     margin-right: 150px;
 }
 .BudapestOneImage img{
@@ -254,14 +253,15 @@ border: none;
 border: none;
 background-color: transparent;
 margin-top: 6vw;
-margin-right: 50px;
+margin-right: 40px;
 }
 
 .ValenciaImage {
     border: none;
     background: transparent;
     margin-left: 20px;
-    margin-right: 110px;
+    margin-right: 50px;
+    margin-left: 100px;
 }
 
 .justifyLetters {

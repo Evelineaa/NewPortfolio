@@ -25,7 +25,7 @@ const handleMouseLeave = () => {
 }
 
     return (
-        <section>
+        <div>
             <div className='firstMeetMe'>
                     <div className='fullWidthBackground'>
                         <div onMouseEnter={() => {setHovered(true)}} onMouseLeave={handleMouseLeave}>
@@ -130,7 +130,7 @@ const handleMouseLeave = () => {
             </div>
             </div>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap"></link>
-        </section>
+        </div>
     );
 };
 
