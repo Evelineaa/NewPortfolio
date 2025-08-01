@@ -38,7 +38,7 @@ const VBox = ({ children, style }) => {
             </VBox>
             <HBox>
               <div className='mainButtons'>
-                <button className='meetMeButton'>
+                <button className='meetMeButton'  onClick={() => navigate('/MeetMe')}>
                   <span>Meet me</span>
                   </button>
                 <button className='projectsButton' onClick={() => navigate('/Projects')}>

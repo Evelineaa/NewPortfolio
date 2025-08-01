@@ -1,11 +1,11 @@
 import MainHeader from './Components/MainHeader';
 import './Projects.css';
 import window from './Pictures/NewDenia.svg';
-import bird from './Pictures/birdWindowNew.svg'
+import bird from './Pictures/birdWindowNew.svg';
+import { useNavigate } from 'react-router-dom';
 
 function Projects() {
-  console.log("Projects-komponentti renderöity");
-
+    const navigate = useNavigate();
 
 
 
@@ -15,7 +15,7 @@ function Projects() {
             <div className='bodypart'>
             <img className='bodyimage' src={window}></img>
             <div className='birdWindow'>
-            <button className='buttonHover'>
+            <button className='buttonHover' onClick={() => navigate('/projects/ProjectsMenu')}>
                 <img src={bird}></img>
             </button>
             </div>

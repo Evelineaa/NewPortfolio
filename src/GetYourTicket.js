@@ -1,8 +1,11 @@
 import './GetYourTicket.css';
 import PlaneTicket from './Pictures/PlaneTicket.png'
 import MainHeader from './Components/MainHeader.js';
+import { useNavigate } from 'react-router-dom';
+
 
 function GetYourTicket() {
+    const navigate = useNavigate();
 
     return (
         <section className='airportSplit'>
@@ -11,7 +14,7 @@ function GetYourTicket() {
                 <div className='textAndImageButton'>
                     <p>Time to head to the gate and take off</p>
                     <p>Make yourself comfortable and enjoy your first class seat</p>
-                    <button onClick={() => window.location.href = 'MeetMe'}>
+                    <button onClick={() => navigate('/MeetMe')}>
                         <img src={PlaneTicket}></img>
                     </button>
                 </div>

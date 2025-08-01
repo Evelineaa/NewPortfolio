@@ -7,6 +7,7 @@ import GetYourTicket from './GetYourTicket';
 import MeetMe from './MeetMe';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ProjectsMenu from './ProjectsMenu';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/ProjectsMenu" element={<ProjectsMenu />} />
         <Route path="/GetYourTicket" element={<GetYourTicket />} />
         <Route path="/MeetMe" element={<MeetMe />} />
       </Routes>
