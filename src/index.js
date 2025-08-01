@@ -6,13 +6,13 @@ import Projects from './Projects';  // import your Projects component
 import GetYourTicket from './GetYourTicket';
 import MeetMe from './MeetMe';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import ProjectsMenu from './ProjectsMenu';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router basename='/NewPortfolio'>
+    <Router>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/projects" element={<Projects />} />
