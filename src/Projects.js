@@ -7,8 +7,6 @@ import { useNavigate } from 'react-router-dom';
 function Projects() {
     const navigate = useNavigate();
 
-
-
     return (
         <section className='sectionBody'>
             <MainHeader theme='light'></MainHeader>
