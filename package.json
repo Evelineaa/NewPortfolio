@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://Evelineaa.github.io/NewPortfolio",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -13,7 +14,6 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://evelineaa.github.io/NewPortfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
