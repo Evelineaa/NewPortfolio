@@ -1,9 +1,9 @@
 import './App.css';
 import MainHeader from './Components/MainHeader.js';
-import
+import GetYourTicket from './GetYourTicket.js'; 
+
 
 function App() {
-
 
   return (
     <section className='airportSplit'>
