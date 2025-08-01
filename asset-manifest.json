@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NewPortfolio/static/css/main.2cf7e34d.css",
-    "main.js": "/NewPortfolio/static/js/main.aa2d0017.js",
+    "main.css": "/NewPortfolio/static/css/main.fa8adea2.css",
+    "main.js": "/NewPortfolio/static/js/main.8790ccb4.js",
     "static/js/453.1407b060.chunk.js": "/NewPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/birdWindowNew.svg": "/NewPortfolio/static/media/birdWindowNew.7671c4837986fa94fb6a9db40c167696.svg",
     "static/media/NewDenia.svg": "/NewPortfolio/static/media/NewDenia.e31e883f79c739a8f9d4df94f82294af.svg",
@@ -16,12 +16,12 @@
     "static/media/PlaneTicket.png": "/NewPortfolio/static/media/PlaneTicket.b6975a62ef0879139995.png",
     "static/media/SpainFlagMountain.png": "/NewPortfolio/static/media/SpainFlagMountain.9ebbf9ea60efdbf419a3.png",
     "index.html": "/NewPortfolio/index.html",
-    "main.2cf7e34d.css.map": "/NewPortfolio/static/css/main.2cf7e34d.css.map",
-    "main.aa2d0017.js.map": "/NewPortfolio/static/js/main.aa2d0017.js.map",
+    "main.fa8adea2.css.map": "/NewPortfolio/static/css/main.fa8adea2.css.map",
+    "main.8790ccb4.js.map": "/NewPortfolio/static/js/main.8790ccb4.js.map",
     "453.1407b060.chunk.js.map": "/NewPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cf7e34d.css",
-    "static/js/main.aa2d0017.js"
+    "static/css/main.fa8adea2.css",
+    "static/js/main.8790ccb4.js"
   ]
 }
