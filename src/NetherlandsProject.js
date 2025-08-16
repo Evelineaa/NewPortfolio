@@ -71,7 +71,7 @@ function NetherlandsProject() {
                         <p>I was responsible for designing and developing the Joffer mobile application. For two months, I also served as the Scrum Master for the entire team. I created the design using Figma, planning and building the full prototype for the mobile version.
                             <br /> The most challenging part was ensuring that every element closely matched the website:  including colors, layout, and overall structure. This made the design process more complex, as I had to carefully consider which elements were essential for the mobile experience and which could be simplified or left out.
                         <br /> <br /> Of development, I was responsible for implementing the initial user interactions, including the registration and login functionality (including all the background work, such as integrating the front-end code with the back-end.) Below this page is Linkedin link where you can see more about the registering phase of the app. 
-                        <br />I also developed the swiping card feature and screen view. (Picture 1.) For the new job offer I did the “Add new job offer” which wasn’t my best work, but it works for the application. (Picture 3)</p>
+                        <br />I also developed the swiping card feature and screen view (Picture 1.). For the new job offer I did the “Add new job offer” which wasn’t my best work, but it works for the application (Picture 3).</p>
                     </div>
                     </div>
                     <img src={JofferThree} />
