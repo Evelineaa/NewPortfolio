@@ -1,0 +1,68 @@
+.backgroundBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sections {
+ display: flex;
+ flex-direction: column;
+ margin: 50px 0px 0px 0px;
+}
+
+.backgroundInfoOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.alignText {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-family: "Beiruti", sans-serif;
+}
+
+.alignText h1{
+    font-size: 2.5vw;
+}
+
+.alignText h2{
+    font-size: 1.8vw;
+}
+
+.alignText p{
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+.marginsOne {
+    padding-right: 100px;
+}
+
+.marginsTwo {
+    padding-left: 100px;
+}
+
+
+.backgroundInfoOne img{
+    width: 20vw;
+    height: 45vw;
+    margin: 30px 0px 0px 0px;
+}
+
+.LinkButtons {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20vw;
+    gap: 40px;
+}
+
+.LinkButtons button img{
+    width: 5vw;    
+}
+
+.LinkButtons button{
+background-color: transparent;
+border: none;       
+}

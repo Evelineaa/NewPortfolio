@@ -1,15 +1,13 @@
 .sectionBody {
-    min-height: 100vh;    
-    width: 100vw;
     display: flex;
-    background-color: black; 
+    background-color: rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 .bodyimage {
-     width: 28.73vw;
+    width: 28.73vw;
 }
 
 .birdWindow {
@@ -28,112 +26,45 @@
     transition: opacity 0.5s ease;
 }
 
-.buttonHover img{
+.buttonHover img {
     width: 29.5vw;
-}  
+}
 
 .sectionMenu {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: black;
-    text-align: center;
-
+    background-color: rgb(255, 255, 255);
+    margin-top: 3vw;
 }
 
 .sectionMenu img {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
+    width: 85%;
+    height: 85vh;
 }
 
-.buildingButtons{
-    position: absolute;
+.temporaryInfo {
+    width: 100%;
     display: flex;
+    align-items: center;
+    text-align: center;
     flex-direction: column;
 }
 
-.buildingButtons button {
-    background-color: transparent;
+.temporaryInfo button {
     border: none;
+    background-color: black;
+    color: white;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 50px;
+    font-family: "Beiruti", sans-serif;
+    font-size: 1.4vw;
 }
 
-.mountain {
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    opacity: 0;
-}
-
-.mountain:hover {
-    opacity: 0.7;
-    transition: opacity 0.5s ease;
-}
-
-.mountain button {
-    margin-top: 50px;
-}
-
-.mountain button img{
-    width: 99.4vw;
-    height: 15vw;
-    opacity: 0.3;
-}
-
-.rowBuildings {
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: flex-start;
-    align-items: end;
-    margin-left: 0px;
-    
-}
-
-.whiteBuilding {
-        width: 32vw;
-        margin-left: 20px;
-        margin-top: 20px;
-        opacity: 0.7;
-        border-radius: 50px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: start;
-        opacity: 0;
-}
-
-.whiteBuilding:hover {
-    opacity: 0.5;
-    transition: opacity 0.5s ease;
-}
-
-
-.whiteBuilding img {
-        width: 32vw;
-        height: 15vw;
-
-}
-
-.YellowBuilding {
-    width: 29vw;
-    height: 19vw;
-    display: flex;
-    justify-content: flex-start;
-    align-items: end;
-    margin-left: -110px;
-    opacity: 0;
-
-}
-
-.YellowBuilding:hover {
-    opacity: 0.5;
-    transition: opacity 0.5s ease;
-}
-
-
-
-.YellowBuilding img {
-    width: 29vw;
-    height: 18vw;
+.temporaryInfo p {
+    color: black;
+    margin-top: 20vw;
+    font-family: "Beiruti", sans-serif;
+    font-size: 1.6vw;
 }
