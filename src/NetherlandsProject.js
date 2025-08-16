@@ -56,8 +56,8 @@ function NetherlandsProject() {
                             employers, unemployed and employed people
                             to find a new job and match with recruiters.
                             It’s meant to be low barrier for users to use it from both sites.
-                            <br />Imagine it like a dating app. Job seekers swipes right or left job applications and recruiters swipes Job seekers profile. 
-                            Depending how matching or good the job seeker is for the job. When both factors are swiped right they will get a match witch gives for recruiter and for job seeker all the contact details. such example: email, phone number...
+                            <br />Imagine it like a dating app. Job seekers swipes right or left job applications and recruiters swipes job seekers profile. 
+                            Depending how matching or good the job seeker is for the job. When both factors are swiped right they will get a match which gives for recruiter and for job seeker all the contact details. such example: email, phone number...
                         </p>
                         </div>
                     </div>
