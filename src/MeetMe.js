@@ -27,7 +27,6 @@ const handleMouseLeave = () => {
     return (
         <div>
             <div className='firstMeetMe'>
-                    <div className='fullWidthBackground'>
                         <div onMouseEnter={() => {setHovered(true)}} onMouseLeave={handleMouseLeave}>
                     <div className='menuBox'>
                         <button>
@@ -46,21 +45,20 @@ const handleMouseLeave = () => {
                             <p>Welcome to the trip with me!</p>
                         </div>
                      </div>
-                     </div>
                     <div className='JustifyContent'>
-                    <div className='imageButtons'>
                         <div className='JustifyLeft'>
                             <div className='buttonWithText'>
                             <button className='northernIrelandImage'>
                             <img src={ButtonOne}/>
                             </button>
-                             <div className="hoverTextOne">
+                             <div className="hoverTextRight">
                                 <span className="boldText">During this year.. <br /></span>
                                 <span>Graduated from comprehensive school (Music class). <br /> Worked in Customer service on the summer</span>                    
                             </div>
                         </div>
                         </div>
                         <div className='justifyLetters'> 
+                            <div className='connectObjects'>
                             <button className='letterButtonOne'>
                                 <img src={LetterOne}/>
                             </button>
@@ -68,10 +66,11 @@ const handleMouseLeave = () => {
                                 <span className="boldText">During this year.. <br /></span>
                                 <span>Worked in Customer service  on the summer<br /> Participated in Ireland to Erasmus+ Youth in Action </span>                    
                             </div>
+                            </div>
                         </div>
                         <div className='JustifyRight'>
                         <div className='buttonWithText'>
-                            <div className="hoverTextTwo">
+                            <div className="hoverTextLeft">
                                 <span className="boldText">2020<br /></span>
                                 <span>Graduated from vocational high school (Security field)<br /> Started working as a security guard<br /></span>
                                 <br />
@@ -88,13 +87,14 @@ const handleMouseLeave = () => {
                         <button className='BudapestOneImage'>
                             <img src={ButtonThree}/>
                         </button>
-                        <div className="hoverTextThree">
+                        <div className="hoverTextRight">
                                 <span className="boldText">This year I...<br /></span>
                                 <span>Started my studies on ICT<br />Worked as a security guard and as a firefighter trainee <br /></span>
                             </div>
                         </div>
                         </div>
                          <div className='justifyLetters'> 
+                            <div className='connectObjects'>
                             <button className='letterButtonTwo'>
                                 <img src={LetterTwo}/>
                             </button>
@@ -103,12 +103,13 @@ const handleMouseLeave = () => {
                                 <span>Started working as a service coordinator at OP Osuuskunta<br />through Tribedo Oy</span>                    
                             </div>
                         </div>
+                        </div>
                         <div className='JustifyRight'>
                          <div className='buttonWithText'>
-                             <div className="hoverTextFourth">
+                             <div className="hoverTextLeft">
                                 <span className="boldText">During this year..<br /></span>
-                                <span>Started working as a Developer trainee (Android development) at OP Financial Group<br/> Later I did my thesis  with Power Platform and gained valuable experience on project management<br/> 
-                                Both of these career opportunities I also gained valuable experience of onboarding and training new employee</span>
+                                <span>I Started working as a Developer trainee (Android development) <br />at OP Financial Group<br/><br /> Later I did my thesis with Power Platform and gained valuable experience <br />on project management<br/> <br />
+                                Both of these career opportunities I also gained valuable experience <br /> of onboarding and training new employee</span>
                             </div>
                         <button className='BudapestTwoImage'>
                             <img src={ButtonFour}/>
@@ -120,13 +121,12 @@ const handleMouseLeave = () => {
                         <button className='ValenciaImage'>
                             <img src={ButtonFive}/>
                         </button>
-                         <div className="hoverTextThree">
+                         <div className="hoverTextRight">
                                 <span className="boldText">This year I...<br /></span>
                                 <span>left everything behind for 6 months and moved to Valencia, Spain for exchange studies in Universitat Politécnica de Valéncia(UPV)</span>
                             </div>
                         </div>
                         </div>
-                    </div>
             </div>
             </div>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap"></link>

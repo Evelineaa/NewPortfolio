@@ -3,6 +3,7 @@ import './Projects.css';
 import window from './Pictures/NewDenia.svg';
 import bird from './Pictures/birdWindowNew.svg';
 import { useNavigate } from 'react-router-dom';
+import DeniaImage from './Pictures/BuildingsDeniaSVG.svg'
 
 function Projects() {
     const navigate = useNavigate();
@@ -12,10 +13,10 @@ function Projects() {
         <div>
             <MainHeader theme='light'></MainHeader>
             <div className='bodypart'>
-            <img className='bodyimage' src={window}></img>
+                <img className='bodyimage' src={window}></img>
             <div className='birdWindow'>
             <button className='buttonHover' onClick={() => navigate('/projects/ProjectsMenu')}>
-                <img src={bird}></img>
+                <img src={DeniaImage}></img>
             </button>
             </div>
      </div>
