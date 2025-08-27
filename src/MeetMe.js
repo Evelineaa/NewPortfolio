@@ -52,7 +52,7 @@ const handleMouseLeave = () => {
                             <img src={ButtonOne}/>
                             </button>
                              <div className="hoverTextRight">
-                                <span className="boldText">During this year.. <br /></span>
+                                <span className="boldText">2018 <br /></span>
                                 <span>Graduated from comprehensive school (Music class). <br /> Worked in Customer service on the summer</span>                    
                             </div>
                         </div>
@@ -63,7 +63,7 @@ const handleMouseLeave = () => {
                                 <img src={LetterOne}/>
                             </button>
                             <div className="hoverTextLetters">
-                                <span className="boldText">During this year.. <br /></span>
+                                <span className="boldText">2019<br /></span>
                                 <span>Worked in Customer service  on the summer<br /> Participated in Ireland to Erasmus+ Youth in Action </span>                    
                             </div>
                             </div>
@@ -88,7 +88,7 @@ const handleMouseLeave = () => {
                             <img src={ButtonThree}/>
                         </button>
                         <div className="hoverTextRight">
-                                <span className="boldText">This year I...<br /></span>
+                                <span className="boldText">2022<br /></span>
                                 <span>Started my studies on ICT<br />Worked as a security guard and as a firefighter trainee <br /></span>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ const handleMouseLeave = () => {
                                 <img src={LetterTwo}/>
                             </button>
                             <div className="hoverTextLettersTwo">
-                                <span className="boldText">During this year.. <br /></span>
+                                <span className="boldText">2023 <br /></span>
                                 <span>Started working as a service coordinator at OP Osuuskunta<br />through Tribedo Oy</span>                    
                             </div>
                         </div>
@@ -107,7 +107,7 @@ const handleMouseLeave = () => {
                         <div className='JustifyRight'>
                          <div className='buttonWithText'>
                              <div className="hoverTextLeft">
-                                <span className="boldText">During this year..<br /></span>
+                                <span className="boldText">2024<br /></span>
                                 <span>I Started working as a Developer trainee (Android development) <br />at OP Financial Group<br/><br /> Later I did my thesis with Power Platform and gained valuable experience <br />on project management<br/> <br />
                                 Both of these career opportunities I also gained valuable experience <br /> of onboarding and training new employee</span>
                             </div>
@@ -122,7 +122,7 @@ const handleMouseLeave = () => {
                             <img src={ButtonFive}/>
                         </button>
                          <div className="hoverTextRight">
-                                <span className="boldText">This year I...<br /></span>
+                                <span className="boldText">2025<br /></span>
                                 <span>left everything behind for 6 months and moved to Valencia, Spain for exchange studies in Universitat Politécnica de Valéncia(UPV)</span>
                             </div>
                         </div>
