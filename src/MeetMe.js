@@ -38,11 +38,11 @@ const handleMouseLeave = () => {
                      <div className='backgroundWhite'>
                     <img src={FirstPhoto}></img>
                         <div className='aboutMeText'>
-                            <p>I’m Milla. I’m currently studying information and communication technology with a focus on software development. I hope this portfolio gives you a sense of who I am not just through my work or studies, but also through the journey behind it.</p>
-                            <p>I’ve had the opportunity to travel to eight different countries some more than once and you’ll get a glimpse of those experiences throughout this portfolio.</p>
-                            <p>My goal was to make this portfolio feel more like an experience than a presentation, while still keeping my personality at the heart of it.
-                                I hope you enjoy exploring it as much as I enjoyed creating it. All photos you will see in this site are taken by me or my friends </p>
-                            <p>Welcome to the trip with me!</p>
+                            <p>Hi! I’m Milla and I’m studying Information and Communication Technology with a focus on software development (Graduating first week of September), with a focus on software development. I see this portfolio as more than just a collection of projects. It reflects my growth, adaptability, and curiosity both in tech and in life.</p>
+                            <p>I’ve had the opportunity to travel to eight different countries. Travelling has not only taught me adaptability, but also strengthened my communication skills whether adapting to new cultures or working in security, where clear communication was essential. I bring that same mindset into tech: solving problems, staying organized despite problems, and connecting with people.</p>
+                            <p>I’ve worked with Android development (Java/Kotlin) and Microsoft Power Platform, from building apps to automating processes. Alongside my studies, I’ve gained skills in  quickly picking up new technologies, user-centered design, and problem-solving in fast-changing environments.</p>
+                            <p>My goal was to make this portfolio feel more like an experience than a presentation, while still keeping my personality at the heart of it. I hope you enjoy exploring it as much as I enjoyed creating it. All photos you see here are taken by me or my friends with me, adding a personal touch to the journey.</p>
+                            <p>Thank you for taking the time to be here. I’m excited for where this journey might take us next.</p>
                         </div>
                      </div>
                     <div className='JustifyContent'>
@@ -64,7 +64,7 @@ const handleMouseLeave = () => {
                             </button>
                             <div className="hoverTextLetters">
                                 <span className="boldText">2019<br /></span>
-                                <span>Worked in Customer service  on the summer<br /> Participated in Ireland to Erasmus+ Youth in Action </span>                    
+                                <span>Worked in Customer service  on the summer<br /> Participated in Ireland to Erasmus+ Youth in Action (More info on the project section)</span>                    
                             </div>
                             </div>
                         </div>
@@ -100,7 +100,8 @@ const handleMouseLeave = () => {
                             </button>
                             <div className="hoverTextLettersTwo">
                                 <span className="boldText">2023 <br /></span>
-                                <span>Started working as a service coordinator at OP Osuuskunta<br />through Tribedo Oy</span>                    
+                                <span>Started working as a service coordinator at OP Osuuskunta<br />through Tribedo Oy<br /><br />
+                                Onboarding and managing it was part of my daily responsibilities.</span>                    
                             </div>
                         </div>
                         </div>
@@ -108,7 +109,7 @@ const handleMouseLeave = () => {
                          <div className='buttonWithText'>
                              <div className="hoverTextLeft">
                                 <span className="boldText">2024<br /></span>
-                                <span>I Started working as a Developer trainee (Android development) <br />at OP Financial Group<br/><br /> Later I did my thesis with Power Platform and gained valuable experience <br />on project management<br/> <br />
+                                <span>I Started working as a Developer trainee (Android development) <br />at OP Financial Group<br/><br /> Later I did my thesis with Power Platform and gained valuable experience (More info on the project section) on project management<br/> <br />
                                 Both of these career opportunities I also gained valuable experience <br /> of onboarding and training new employee</span>
                             </div>
                         <button className='BudapestTwoImage'>

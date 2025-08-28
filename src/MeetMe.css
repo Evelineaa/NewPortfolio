@@ -18,7 +18,7 @@
 .backgroundWhite {
     display: flex;
     flex-direction: row;
-    margin: 100px 150px 0px 200px;
+    margin: 100px 100px 0px 160px;
 }
 
 .backgroundWhite img {
@@ -35,8 +35,7 @@
 .aboutMeText p {
     color: black;
     font-family: "Beiruti", sans-serif;
-    font-size: 1.55vw;
-    padding-right: 80px;
+    font-size: 1.4vw;
 }
 
 .JustifyContent {
@@ -139,6 +138,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    height: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -146,14 +147,17 @@
 .letterButtonOne {
     background: transparent;
     border: none;
-    margin-left: 21vw;
+    margin-left: 26vw;
     margin-right: 50px;
 }
 
 .hoverTextLetters {
     font-size: 0.9vw;
     opacity: 0;
-    height: 40px;
+    width: 350px;
+    height: auto;
+    max-height: 80px;
+    padding-right: 100px;
 }
 
 .justifyLetters:hover .hoverTextLetters,
@@ -176,6 +180,7 @@
 .hoverTextLettersTwo {
     font-size: 0.9vw;
     opacity: 0;
-    width: 25vw;
-    height: 50px;
+    width: 450px;
+    height: auto;
+    max-height: 150px;
 }
