@@ -1,4 +1,7 @@
 .welcomeTraveller {
+    position: fixed;
+    top: 0px;
+    left: 50px;
     line-height: 0.0;
     font-size: 32px;
     color: rgb(255, 255, 255);
@@ -51,15 +54,6 @@
 .contactButton:hover::after,
 .projectsButton:hover::after {
     transform: scaleX(1);
-}
-
-.underLine {
-    background-color: white;
-    position: fixed;
-    width: auto;
-    height: 2px;
-    top: 130px;
-    z-index: 1;
 }
 
 .darkHeader .Header h2,
