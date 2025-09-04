@@ -99,6 +99,20 @@
     }
 }
 
+@media only screen and (max-width: 800px) { 
+    .Header h1, .Header h2, .Header span{
+        font-size: 22px;
+    }
+
+    .Header h1, .Header h2 {
+        opacity: 0;
+    }
+     .Header .mainButtons {
+        margin-top: -35px;
+        gap: 25vw;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     .Header h1, .Header h2, .Header span{
         font-size: 18px;
@@ -111,12 +125,8 @@
     .Header .mainButtons {
         margin-top: -35px;
         gap: 18vw;
+        right: 15vw;
     }
-    .Header .underLine {
-        width: 100%;
-        margin-top: -55px;
-    }
-    
     .darkHeader .Header {
          height: 75px;
     }
