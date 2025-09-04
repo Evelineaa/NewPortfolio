@@ -1,31 +1,15 @@
-.menuBox button {
-    width: 2.5vw;
-    height: 2.5vw;
-    margin: 20px;
-    background-color: transparent;
-    border: none;
-}
-
-.menuBox img {
-    background: transparent;
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    top: 25px;
-    left: 25px;
-}
-
 .backgroundWhite {
     display: flex;
     flex-direction: row;
-    margin: 100px 100px 0px 160px;
+    margin: 150px 240px 0px 240px;
 }
 
 .backgroundWhite img {
     background: url(./Pictures/MeetMeOne.jpg) no-repeat;
-    width: 30vw;
-    height: 35vw;
-    margin-right: 50px;
+    width: 25vw;
+    height: 30vw;
+    margin-right: 0px;
+    margin-top: 35px;
 }
 
 .aboutMeText {
@@ -38,149 +22,125 @@
     font-size: 1.4vw;
 }
 
-.JustifyContent {
+.yearImages {
+    background-color: rgba(0, 255, 255, 0.339);
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin-top: 100px;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-.hoverTextRight {
-    font-size: 1.55vw;
-    font-family: "Beiruti", sans-serif;
-    height: 150px;
-    margin-top: 9vw;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    padding-right: 100px;
-}
-
-.buttonWithText:hover .hoverTextRight {
-    opacity: 1;
-    transition: opacity 0.5s ease;
-}
-
-.hoverTextLeft {
-    font-size: 1.55vw;
-    font-family: "Beiruti", sans-serif;
-    height: 280px;
-    margin-top: 4.5vw;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    padding-left: 50px;
-}
-
-.buttonWithText:hover .hoverTextLeft {
-    opacity: 1;
-    transition: opacity 0.5s ease;
-}
-
-.boldText {
-    font-weight: 600;
-}
-
-.buttonWithText img {
-    width: 32vw;
-}
-
-.JustifyRight {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 30vw;
-}
-
-.northernIrelandImage {
-    width: 32vw;
-    background: transparent;
-    border: none;
-    margin-right: 100px;
-}
-
-.tallinnImage {
-    background: transparent;
-    border: none;
-    margin-left: 150px;
-}
-
-.JustifyLeft {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    height: 30vw;
-}
-
-.buttonWithText {
-    display: flex;
-}
-
-.BudapestOneImage {
-    border: none;
-    background-color: transparent;
-    margin-right: 100px;
-}
-
-.BudapestTwoImage {
-    border: none;
-    background-color: transparent;
-    margin-left: 80px;
-}
-
-.ValenciaImage {
-    border: none;
-    background: transparent;
-    margin-right: 100px;
-}
-
-.connectObjects {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
+    margin: 50px 240px 0px 240px;
+}
+
+.imageBox {
+    position: relative;
+    display: flex;
     align-items: center;
-    height: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    justify-content: center;
 }
 
-.letterButtonOne {
-    background: transparent;
-    border: none;
-    margin-left: 26vw;
-    margin-right: 50px;
+.yearImages img {
+    align-items: center;
 }
 
-.hoverTextLetters {
-    font-size: 0.9vw;
-    opacity: 0;
-    width: 350px;
-    height: auto;
-    max-height: 80px;
-    padding-right: 100px;
+.year {
+    position: absolute;
+    font-family: "Beiruti", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.857);
 }
 
-.justifyLetters:hover .hoverTextLetters,
-.justifyLetters:hover .hoverTextLettersTwo {
+.yearText{
+     position: absolute;
+     opacity: 0;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     font-family: "Beiruti", sans-serif;
+     font-size: 22px;
+     font-weight: 500;
+     background-color: rgba(0, 0, 0, 0.78);
+     width: 100%;
+     height: 100%;
+}
+
+.imageBox:hover .yearText {
     opacity: 1;
-    transition: opacity 0.5s ease;
+    transition: opacity 1s ease;
 }
 
-.justifyLetters img {
-    width: 3vw;
-}
-
-.letterButtonTwo {
-    background: transparent;
-    border: none;
-    margin-left: 26vw;
-    margin-right: 50px;
-}
-
-.hoverTextLettersTwo {
-    font-size: 0.9vw;
+.imageBox:hover .year {
     opacity: 0;
-    width: 450px;
-    height: auto;
-    max-height: 150px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .backgroundWhite {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 20px;
+    }
+
+    .aboutMeText {
+        margin-top: 50px;
+    }
+    .aboutMeText p {
+         font-size: 20px;
+    }
+
+    .yearImages img {
+        width: 100%;
+    }
+
+    .year {
+        font-size: 22px;
+    }
+
+    .yearText {
+        font-size: 12px;
+
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {
+     .yearImages img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .backgroundWhite {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .backgroundWhite img {
+        width: 250px;
+        height: 300px;
+    }
+
+     .aboutMeText {
+        margin-top: 20px;
+        width: 400px;
+    }
+
+    .yearImages{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutMeText p {
+        font-size: 18px;
+    }
+
+    .yearImages img {
+        width: 400px;   
+    }
+
+    .yearText {
+        font-size: 10px;
+       
+    }
 }
