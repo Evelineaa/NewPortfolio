@@ -126,6 +126,8 @@
         margin-top: -35px;
         gap: 18vw;
         right: 15vw;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .darkHeader .Header {
          height: 75px;

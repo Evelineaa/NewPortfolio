@@ -23,12 +23,7 @@ function NetherlandsProject() {
     return (
         <div className='backgroundBox'>
             <div onMouseEnter={() => {setHovered(true)}} onMouseLeave={handleMouseLeave}>
-                    <div className='menuBox'>
-                        <button>
-                        <img src={MenuImage}></img>
-                        </button>
-                    </div>
-                      <MainHeader visible={hovered} hoverOnly={true} theme="dark" />
+                      <MainHeader theme="dark" />
                       </div>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap"></link>
             <div className='sections'>
