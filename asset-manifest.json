@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/NewPortfolio/static/css/main.a3448522.css",
-    "main.js": "/NewPortfolio/static/js/main.7cd39d9f.js",
+    "main.css": "/NewPortfolio/static/css/main.d2359031.css",
+    "main.js": "/NewPortfolio/static/js/main.fa02b306.js",
     "static/js/453.1407b060.chunk.js": "/NewPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/birdWindowNew.svg": "/NewPortfolio/static/media/birdWindowNew.7671c4837986fa94fb6a9db40c167696.svg",
+    "static/media/EindhovenChurch.png": "/NewPortfolio/static/media/EindhovenChurch.c7d94c0a0b7448c076da.png",
     "static/media/BuildingsDeniaSVG.svg": "/NewPortfolio/static/media/BuildingsDeniaSVG.54e2f58746feb3da1679037800b5853a.svg",
+    "static/media/ValenciaBuildings.png": "/NewPortfolio/static/media/ValenciaBuildings.3a0cae2f813aeb0b9aab.png",
+    "static/media/TallinCoffee.png": "/NewPortfolio/static/media/TallinCoffee.46ad749d5b6cbeaf5d4f.png",
     "static/media/NewDenia.svg": "/NewPortfolio/static/media/NewDenia.e31e883f79c739a8f9d4df94f82294af.svg",
-    "static/media/Tallin.png": "/NewPortfolio/static/media/Tallin.f1d7c2e9ecae4dab941e.png",
+    "static/media/Tabarca.png": "/NewPortfolio/static/media/Tabarca.733c91a71bb2c54aa804.png",
+    "static/media/BudapestCastle.png": "/NewPortfolio/static/media/BudapestCastle.a594fb6c932b9ec90919.png",
+    "static/media/StuttgartShoppingCenter.png": "/NewPortfolio/static/media/StuttgartShoppingCenter.58a0d8771fb8aa49247a.png",
+    "static/media/BudapestTram.png": "/NewPortfolio/static/media/BudapestTram.3d5bbf06ca050a739e5d.png",
+    "static/media/BudapestTurtle.png": "/NewPortfolio/static/media/BudapestTurtle.5097ff283ced4b17b8f6.png",
     "static/media/MeetMeOne.jpg": "/NewPortfolio/static/media/MeetMeOne.1931eaa60d470dff463c.jpg",
-    "static/media/ValenciaFallas.png": "/NewPortfolio/static/media/ValenciaFallas.90b6495f40375dc85e0b.png",
     "static/media/AirportSplit.JPG": "/NewPortfolio/static/media/AirportSplit.93cbb0ed99efe3b13722.JPG",
-    "static/media/budapestTwo.png": "/NewPortfolio/static/media/budapestTwo.86654c6a9dda8ec93ed0.png",
-    "static/media/NorthernIreland.png": "/NewPortfolio/static/media/NorthernIreland.8635cd0094dab2492871.png",
-    "static/media/budapestOne.png": "/NewPortfolio/static/media/budapestOne.411ac22f8e5981744fd0.png",
     "static/media/JofferPicture2.png": "/NewPortfolio/static/media/JofferPicture2.fec404f2a4e95f081811.png",
     "static/media/JofferPicture3.png": "/NewPortfolio/static/media/JofferPicture3.d15fb630920351861cd1.png",
     "static/media/JofferPicture1.png": "/NewPortfolio/static/media/JofferPicture1.43534b56f18f2783e451.png",
@@ -26,12 +29,12 @@
     "static/media/PlaneTicket.png": "/NewPortfolio/static/media/PlaneTicket.b6975a62ef0879139995.png",
     "static/media/EmptyFinlandMap.png": "/NewPortfolio/static/media/EmptyFinlandMap.4aec279bf00adf65359e.png",
     "index.html": "/NewPortfolio/index.html",
-    "main.a3448522.css.map": "/NewPortfolio/static/css/main.a3448522.css.map",
-    "main.7cd39d9f.js.map": "/NewPortfolio/static/js/main.7cd39d9f.js.map",
+    "main.d2359031.css.map": "/NewPortfolio/static/css/main.d2359031.css.map",
+    "main.fa02b306.js.map": "/NewPortfolio/static/js/main.fa02b306.js.map",
     "453.1407b060.chunk.js.map": "/NewPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3448522.css",
-    "static/js/main.7cd39d9f.js"
+    "static/css/main.d2359031.css",
+    "static/js/main.fa02b306.js"
   ]
 }
