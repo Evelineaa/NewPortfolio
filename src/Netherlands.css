@@ -76,10 +76,46 @@ border: none;
     padding-right: 50px;
     }
     .marginsTwo {
-        padding-top: 50px;
+        padding-top: 20px;
         padding-left: 50px;
     }
     .LinkButtons {
         gap: 10px;
     }
+    
+.alignText h1{
+    font-size: 3.5vw;
+}
+
+.alignText h2{
+    font-size: 3vw;
+}
+
+.alignText p{
+    font-size: 2vw;
+}
+}
+
+@media only screen and (max-width: 450px) {
+.alignText h1{
+    font-size: 5vw;
+}
+
+.alignText h2{
+    font-size: 4vw;
+}
+
+.alignText p{
+    font-size: 2.5vw;
+}
+
+
+.backgroundInfoOne img{
+    width: 30vw;
+    height: 70vw;
+}
+
+.LinkButtons{
+    margin-left: 12vw;
+}
 }
