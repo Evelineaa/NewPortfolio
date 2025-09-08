@@ -12,8 +12,39 @@
 }
 
 .textAndImageButton Button {
-    border: none;
-    background: transparent;
-    margin-top: 30px;
+  border: none;
+  background: transparent;
+  margin-top: 30px;
 }
 
+
+@media only screen and (max-width: 800px) {
+  .textAndImageButton p {
+    font-size: 25px;
+  }
+
+  .textAndImageButton Button img {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .textAndImageButton p {
+    font-size: 22px;
+  }
+
+  .textAndImageButton Button img {
+    width: 250px;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .textAndImageButton p {
+    font-size: 20px;
+  }
+
+  .textAndImageButton Button img {
+    width: 200px;
+  }
+}

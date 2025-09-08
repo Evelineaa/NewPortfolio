@@ -6,7 +6,6 @@ import Github from './Pictures/GithubLinkToJoffer.png'
 import Linkedin from './Pictures/LinkedinLinkToJofferPost.png'
 import { useState } from 'react';
 import { useRef } from 'react';
-import MenuImage from './Pictures/Menu.png'
 import MainHeader from './Components/MainHeader';
 
 

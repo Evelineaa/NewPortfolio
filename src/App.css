@@ -11,7 +11,7 @@
 
 .textAndButton {
   position: fixed;
-  top: 200px;
+  top: 250px;
 }
 
 .textAndButton p {
@@ -21,17 +21,17 @@
   font-size: 30px;
 }
 
-.textAndButton button{
-background-color: transparent;
-border-radius: 25%;
-font-size: 25px;
-font-family: "Beiruti", sans-serif;
-font-weight: 500;
-width: 140px;
-height: 50px;
-cursor: pointer;
-border: none;
-margin-top: 50px
+.textAndButton button {
+  background-color: transparent;
+  border-radius: 25%;
+  font-size: 25px;
+  font-family: "Beiruti", sans-serif;
+  font-weight: 500;
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  margin-top: 50px
 }
 
 .textAndButton button::before {
@@ -68,8 +68,39 @@ margin-top: 50px
 }
 
 .textAndButton button:hover::before {
-left: 0;
-right: 0;
-opacity: 1;
+  left: 0;
+  right: 0;
+  opacity: 1;
 }
 
+
+@media only screen and (max-width: 800px) {
+  .textAndButton button {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .textAndButton p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .textAndButton p {
+    font-size: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .textAndButton button {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .textAndButton p {
+    font-size: 20px;
+  }
+}

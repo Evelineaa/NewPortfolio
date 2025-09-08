@@ -1,7 +1,6 @@
 import MainHeader from './Components/MainHeader';
 import './Projects.css';
 import window from './Pictures/NewDenia.svg';
-import bird from './Pictures/birdWindowNew.svg';
 import { useNavigate } from 'react-router-dom';
 import DeniaImage from './Pictures/BuildingsDeniaSVG.svg'
 

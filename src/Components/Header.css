@@ -17,10 +17,9 @@
 .mainButtons {
     position: fixed;
     top: 50px;
-    right: 100px;
+    right: 10vw;
     display: flex;
     flex-direction: row;
-    gap: 150px;
 }
 
 .meetMeButton,
@@ -33,6 +32,11 @@
     position: relative;
     font-family: "Beiruti", sans-serif;
     background-color: transparent;
+}
+
+.meetMeButton,
+.projectsButton {
+    margin-right: 5vw;
 }
 
 .meetMeButton::after,
@@ -65,6 +69,7 @@
 .darkHeader .Header .underLine {
     background-color: black;
 }
+
 .darkHeader .Header {
     position: fixed;
     top: 0px;
@@ -82,55 +87,92 @@
 }
 
 @media (max-width: 1200px) {
-    .Header h1, .Header h2, .Header span{
+
+    .Header h1,
+    .Header h2,
+    .Header span {
         font-size: 24px;
     }
 
     .Header .mainButtons {
         margin-top: -35px;
-        gap: 20px;
     }
+
     .Header .underLine {
         margin-top: -55px;
     }
-    
+
     .darkHeader .Header {
-         height: 75px;
+        height: 75px;
     }
 }
 
-@media only screen and (max-width: 800px) { 
-    .Header h1, .Header h2, .Header span{
+@media only screen and (max-width: 800px) {
+
+    .Header h1,
+    .Header h2,
+    .Header span {
         font-size: 22px;
     }
 
-    .Header h1, .Header h2 {
+    .Header h1,
+    .Header h2 {
         opacity: 0;
-    }
-     .Header .mainButtons {
-        margin-top: -35px;
-        gap: 25vw;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .Header h1, .Header h2, .Header span{
-        font-size: 18px;
-    }
-
-    .mainButtons {
-        right: 70px;
     }
 
     .Header .mainButtons {
         margin-top: -35px;
-        gap: 18vw;
-        right: 15vw;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 50px;
+        right: 25vw;
+
     }
+
+
+    .meetMeButton,
+    .projectsButton {
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .Header h1,
+    .Header h2,
+    .Header span {
+        font-size: 22px;
+    }
+
+    .Header .mainButtons {
+        margin-top: -35px;
+        right: 20vw;
+        margin-left: 0px;
+    }
+
     .darkHeader .Header {
-         height: 75px;
+        height: 75px;
+    }
+
+    .welcomeTraveller {
+        opacity: 0;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+
+    .Header .mainButtons {
+        margin-top: -35px;
+        right: 15vw;
+        flex-wrap: wrap;
+    }
+
+    .meetMeButton,
+    .projectsButton {
+        margin-right: 5vw;
+    }
+
+    .darkHeader .Header {
+        height: 75px;
     }
 
     .welcomeTraveller {

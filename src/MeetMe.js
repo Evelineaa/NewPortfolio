@@ -1,9 +1,6 @@
 import './MeetMe.css';
-import MenuImage from './Pictures/Menu.png'
 import FirstPhoto from './Pictures/MeetMeOne.jpg'
-import { useState } from 'react';
 import MainHeader from './Components/MainHeader';
-import { useRef } from 'react';
 import ValenciaBuildings from './Pictures/ValenciaBuildings.png'
 import Castle from './Pictures/BudapestCastle.png'
 import Turtle from './Pictures/BudapestTurtle.png'
@@ -34,27 +31,27 @@ function MeetMe() {
                     <div className='imageBox'>
                         <img src={ValenciaBuildings} />
                         <span className='year'>2018</span>
-                        <span className='yearText'>Graduated from comprehensive school (Music class). <br/> Worked in Customer service  on the summer</span>
+                        <span className='yearText'>I graduated from comprehensive school (Music class). <br/> Worked in customer service  on the summer</span>
                     </div>
                     <div className='imageBox'>
                         <img src={Castle} />
                         <span className='year'>2019</span>
-                        <span className='yearText'>Worked in Customer service  on the summer. <br/> Participated in Ireland to Erasmus+ Youth in Action (More info on the project section)</span>
+                        <span className='yearText'>Worked in Customer service on the summer. <br/> Participated in Ireland to Erasmus+ Youth in Action (More info on the project section)</span>
                     </div>
                     <div className='imageBox'>
                         <img src={Turtle} />
                         <span className='year'>2020</span>
-                        <span className='yearText'>Graduated from vocational high school (Security field).<br/> Started working as a security guard</span>
+                        <span className='yearText'>I graduated from vocational high school (Security field).<br/>I started working as a district security guard </span>
                     </div>
                     <div className='imageBox'>
                         <img src={Coffee} />
                         <span className='year'>2021</span>
-                        <span className='yearText'>Graduated as a matriculant Examination<br/> Worked as a security guard and as a firefighter trainee </span>
+                        <span className='yearText'>I completed matriculation examination<br/> I worked as a security guard and as a firefighter trainee in factory area </span>
                     </div>
                     <div className='imageBox'>
                         <img src={Tram} />
                         <span className='year'>2022</span>
-                        <span className='yearText'>Started my studies on ICT <br/> Worked as a security guard and as a firefighter trainee in factory area</span>
+                        <span className='yearText'>I started my studies on ICT<br/> Worked as a security guard and as a firefighter trainee in factory area</span>
                     </div>
                     <div className='imageBox'>
                         <img src={Tabarca} />

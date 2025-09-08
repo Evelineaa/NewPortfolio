@@ -48,20 +48,20 @@
     color: rgba(255, 255, 255, 0.857);
 }
 
-.yearText{
-     position: absolute;
-     opacity: 0;
-     color: white;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     text-align: center;
-     font-family: "Beiruti", sans-serif;
-     font-size: 22px;
-     font-weight: 500;
-     background-color: rgba(0, 0, 0, 0.78);
-     width: 100%;
-     height: 100%;
+.yearText {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Beiruti", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.78);
+    width: 100%;
+    height: 100%;
 }
 
 .imageBox:hover .yearText {
@@ -83,8 +83,9 @@
     .aboutMeText {
         margin-top: 50px;
     }
+
     .aboutMeText p {
-         font-size: 20px;
+        font-size: 20px;
     }
 
     .yearImages img {
@@ -97,16 +98,14 @@
 
     .yearText {
         font-size: 12px;
-
     }
 
 }
 
 @media only screen and (max-width: 1400px) {
-     .yearImages img {
+    .yearImages img {
         width: 100%;
     }
-
 }
 
 @media only screen and (max-width: 700px) {
@@ -124,12 +123,11 @@
         height: 300px;
     }
 
-     .aboutMeText {
+    .aboutMeText {
         margin-top: 20px;
-        
     }
 
-    .yearImages{
+    .yearImages {
         align-items: center;
         width: 100%;
         margin-left: 0px;
@@ -141,11 +139,10 @@
     }
 
     .yearImages img {
-        width: 400px;   
+        width: 400px;
     }
 
     .yearText {
         font-size: 10px;
-       
     }
 }
