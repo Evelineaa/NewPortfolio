@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NewPortfolio/static/css/main.6713a9e4.css",
+    "main.css": "/NewPortfolio/static/css/main.1e737c7c.css",
     "main.js": "/NewPortfolio/static/js/main.98283127.js",
     "static/js/453.1407b060.chunk.js": "/NewPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/EindhovenChurch.png": "/NewPortfolio/static/media/EindhovenChurch.c7d94c0a0b7448c076da.png",
@@ -26,12 +26,12 @@
     "static/media/PlaneTicket.png": "/NewPortfolio/static/media/PlaneTicket.b6975a62ef0879139995.png",
     "static/media/EmptyFinlandMap.png": "/NewPortfolio/static/media/EmptyFinlandMap.4aec279bf00adf65359e.png",
     "index.html": "/NewPortfolio/index.html",
-    "main.6713a9e4.css.map": "/NewPortfolio/static/css/main.6713a9e4.css.map",
+    "main.1e737c7c.css.map": "/NewPortfolio/static/css/main.1e737c7c.css.map",
     "main.98283127.js.map": "/NewPortfolio/static/js/main.98283127.js.map",
     "453.1407b060.chunk.js.map": "/NewPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6713a9e4.css",
+    "static/css/main.1e737c7c.css",
     "static/js/main.98283127.js"
   ]
 }
