@@ -66,3 +66,20 @@
 background-color: transparent;
 border: none;       
 }
+
+
+@media only screen and (max-width: 800px) {
+    .backgroundBox{
+       margin-top: 50px;
+    }
+    .marginsOne {
+    padding-right: 50px;
+    }
+    .marginsTwo {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    .LinkButtons {
+        gap: 10px;
+    }
+}
