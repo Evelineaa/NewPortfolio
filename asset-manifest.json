@@ -1,14 +1,11 @@
 {
   "files": {
-    "main.css": "/NewPortfolio/static/css/main.5a97f881.css",
-    "main.js": "/NewPortfolio/static/js/main.996ed49c.js",
+    "main.css": "/NewPortfolio/static/css/main.1776478c.css",
+    "main.js": "/NewPortfolio/static/js/main.46a04995.js",
     "static/js/453.1407b060.chunk.js": "/NewPortfolio/static/js/453.1407b060.chunk.js",
-    "static/media/birdWindowNew.svg": "/NewPortfolio/static/media/birdWindowNew.7671c4837986fa94fb6a9db40c167696.svg",
     "static/media/EindhovenChurch.png": "/NewPortfolio/static/media/EindhovenChurch.c7d94c0a0b7448c076da.png",
-    "static/media/BuildingsDeniaSVG.svg": "/NewPortfolio/static/media/BuildingsDeniaSVG.54e2f58746feb3da1679037800b5853a.svg",
     "static/media/ValenciaBuildings.png": "/NewPortfolio/static/media/ValenciaBuildings.3a0cae2f813aeb0b9aab.png",
     "static/media/TallinCoffee.png": "/NewPortfolio/static/media/TallinCoffee.46ad749d5b6cbeaf5d4f.png",
-    "static/media/NewDenia.svg": "/NewPortfolio/static/media/NewDenia.e31e883f79c739a8f9d4df94f82294af.svg",
     "static/media/Tabarca.png": "/NewPortfolio/static/media/Tabarca.733c91a71bb2c54aa804.png",
     "static/media/BudapestCastle.png": "/NewPortfolio/static/media/BudapestCastle.a594fb6c932b9ec90919.png",
     "static/media/StuttgartShoppingCenter.png": "/NewPortfolio/static/media/StuttgartShoppingCenter.58a0d8771fb8aa49247a.png",
@@ -29,12 +26,12 @@
     "static/media/PlaneTicket.png": "/NewPortfolio/static/media/PlaneTicket.b6975a62ef0879139995.png",
     "static/media/EmptyFinlandMap.png": "/NewPortfolio/static/media/EmptyFinlandMap.4aec279bf00adf65359e.png",
     "index.html": "/NewPortfolio/index.html",
-    "main.5a97f881.css.map": "/NewPortfolio/static/css/main.5a97f881.css.map",
-    "main.996ed49c.js.map": "/NewPortfolio/static/js/main.996ed49c.js.map",
+    "main.1776478c.css.map": "/NewPortfolio/static/css/main.1776478c.css.map",
+    "main.46a04995.js.map": "/NewPortfolio/static/js/main.46a04995.js.map",
     "453.1407b060.chunk.js.map": "/NewPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a97f881.css",
-    "static/js/main.996ed49c.js"
+    "static/css/main.1776478c.css",
+    "static/js/main.46a04995.js"
   ]
 }
