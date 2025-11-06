@@ -2,10 +2,7 @@ import './Spain.css';
 import School from './Pictures/ValenciaProjectSchoolArea.jpg'
 import Views from './Pictures/ValenciaViews.jpg'
 import ViewsTwo from './Pictures/ValenciaViewsTwo.jpg'
-import Github from './Pictures/GithubLinkToJoffer.png'
 import Linkedin from './Pictures/LinkedinLinkToJofferPost.png'
-import { useState } from 'react';
-import { useRef } from 'react';
 import MainHeader from './Components/MainHeader';
 
 

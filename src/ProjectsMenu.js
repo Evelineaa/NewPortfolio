@@ -24,7 +24,6 @@ function ProjectsMenu() {
                 <div className='mapTextsLeft'>
                   <h1>Spain 2025</h1>
                   <h2>Exchange and studies</h2>
-                  <h2>Under construction</h2>
                 </div>
                 <img className="EmptySpain" src={EmptySpain} />
                 <img className="NotEmptySpain" src={Spain} />

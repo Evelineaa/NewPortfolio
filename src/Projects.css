@@ -1,4 +1,6 @@
 .sectionMenu {
+    display: flex;
+    justify-content: center;
     margin-top: 7vw;
     margin-left: 100px;
     margin-right: 100px;
@@ -23,7 +25,7 @@
 
 .mapTextsLeft h2, .mapTextsRight h2 {
     font-size: 23px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .EmptySpain {
@@ -111,7 +113,7 @@
 .NotEmptyFinland {
     position: absolute;
     width: 380px;
-    margin-right: 240px;
+    margin-right: 245px;
     opacity: 0;
     transition: opacity 1s ease;
 }
@@ -124,6 +126,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: rgb(207, 207, 207);
+    width: 100%;
     height: 2px;
 }
 
@@ -145,11 +148,11 @@
     }
 
     .mapTexts h1 {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .mapTexts h2 {
-        font-size: 2.8vw;
+        font-size: 2.6vw;
     }
 }
 
@@ -170,11 +173,11 @@
         margin-left: 150px;
     }
     .mapTextsLeft h1, .mapTextsRight h1 {
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
 
      .mapTextsLeft h2, .mapTextsRight h2 {
-        font-size: 4vw;
+        font-size: 2.5vw;
     }
 
     .mapTextsLeft {
