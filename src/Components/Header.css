@@ -164,9 +164,15 @@
 
 @media only screen and (max-width: 450px) {
 
+    .Header h1,
+    .Header h2,
+    .Header span {
+        font-size: 18px;
+    }
+
     .Header .mainButtons {
-        margin-top: -35px;
-        right: 10vw;
+        margin-top: -25px;
+        right: 15vw;
         margin-left: 0px;
     }
 

@@ -1,8 +1,9 @@
-.sections {
+.spainSections {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 
 .travelPhotos {
@@ -58,7 +59,6 @@
     height: auto;
 }
 
-
 .CoursesGreyLine {
     width: 40%;
     height: 3px;
@@ -68,6 +68,10 @@
 }
 
 @media only screen and (max-width: 1000px) {
+    .spainSections {
+        margin-top: 150px;
+    }
+
     .travelPhotos img{
         width: 100%;
         height: auto;
@@ -102,7 +106,7 @@
 
     .CoursesGreyLine {
         margin-top: 60px;
-        margin-bottom: 80px;
+        margin-bottom: 150px;
     }
 
 

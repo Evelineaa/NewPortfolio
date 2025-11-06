@@ -15,7 +15,7 @@ function NetherlandsProject() {
                 <div className='travelPhotos'>
                     <img src={School} />
             </div>
-            <div className='sections'>
+            <div className='spainSections'>
                 <div className='backgroundInfoOne'>
                     <div className='alignFont'>
                         <h1>Erasmus exchange</h1>
@@ -31,7 +31,7 @@ function NetherlandsProject() {
                 <div className='travelPhotos'>
                     <img src={Views} />
             </div>
-            <div className='sections'>
+            <div className='spainSections'>
                 <div className='backgroundInfoOne'>
                     <div className='alignFont'>
                         <h2>My experience</h2>
@@ -49,7 +49,7 @@ function NetherlandsProject() {
                 <div className='travelPhotos'>
                     <img src={ViewsTwo} />
                 </div>
-            <div className='sections'>
+            <div className='spainSections'>
                 <div className='alignFont'>
                     <h1>Courses</h1>
                     <h2>3D Printing</h2>
