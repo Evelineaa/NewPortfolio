@@ -206,7 +206,7 @@
 @media only screen and (max-width: 450px) {
     .mapButtons {
         flex-wrap: wrap;
-        margin-top: -50px;
+        margin-top: -30px;
         margin-bottom: -50px;
     }
        

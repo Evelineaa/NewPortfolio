@@ -67,11 +67,9 @@ function NetherlandsProject() {
                 <div className='CoursesGreyLine'></div>
                 <div className='alignFont'>
                     <h2>Web Data Analytics</h2>
-                    <p>The 3D Printing course was one of my favorites because it was so hands-on and practical.
-                        We learned about the design process, different printing materials, and how 3D printers actually work. For our final project, my group created a coffee train grinder.  It’s looking like a train toy, but  that included a manual coffee grinder. It was a challenging but fun project that taught me a lot about prototyping, precision (Example in dimensions), and teamwork.
-                        Seeing the final product come to life after all the planning and testing was very rewarding.
-                    </p>
-                    <p> I created also a powerpoint presentation about the coffee train grinder which included fun animations. You can go check it here:
+                    <p>We focused on collecting, processing, and interpreting data from different web sources. 
+We learned how to use analytical tools to find patterns and insights from data, and how this information can be used for business or research purposes. I found this course very useful for my ICT studies, as data analysis is an important skill in today’s technology field.
+It also helped me understand how decision-making can be guided by data rather than just intuition.
                     </p>
                 </div>
                 <div className='CoursesGreyLine'></div>
