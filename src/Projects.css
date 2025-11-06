@@ -148,36 +148,49 @@
     }
 
     .mapTexts h1 {
-        font-size: 3.5vw;
+        font-size: 3.2vw;
     }
 
     .mapTexts h2 {
-        font-size: 2.6vw;
+        font-size: 2.4vw;
     }
 }
 
 @media only screen and (max-width: 650px) {
     .sectionMenu {
-        margin-top: 100px;
+        margin-top: 50px;
+        margin-bottom: -50px;
     }
     
-    .NotEmptyFinland, .NotEmptyNetherlands{
-        width: 40vw;
+    .NotEmptyNetherlands{
+        width: 50vw;
         opacity: 1;
         margin-right: 150px;
     }
 
-    .NotEmptyNorthernIreland, .NotEmptySpain  {
+    .NotEmptyFinland {
+        width: 50vw;
+        opacity: 1;
+        margin-right: 150px;
+    }
+
+    .NotEmptyNorthernIreland {
         width: 35vw;
         opacity: 1;
-        margin-left: 150px;
+        margin-left: 200px;
     }
+
+    .NotEmptySpain  {
+        width: 43vw;
+        margin-left: 100px;
+    }
+
     .mapTextsLeft h1, .mapTextsRight h1 {
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
      .mapTextsLeft h2, .mapTextsRight h2 {
-        font-size: 2.5vw;
+        font-size: 3.2vw;
     }
 
     .mapTextsLeft {
@@ -193,26 +206,35 @@
 @media only screen and (max-width: 450px) {
     .mapButtons {
         flex-wrap: wrap;
+        margin-top: -50px;
+        margin-bottom: -50px;
     }
        
-    .NotEmptyFinland, .NotEmptyNetherlands{
+    .NotEmptyNetherlands,  .NotEmptyFinland{
         width: 45vw;
         opacity: 1;
-        margin-right: 100px;
+        margin-right: 200px;
     }
 
-    .NotEmptyNorthernIreland, .NotEmptySpain  {
-        width: 38vw;
+    .NotEmptyNorthernIreland {
+        width: 30vw;
+        opacity: 1;
+        margin-left: 200px;
+    }
+
+    .NotEmptySpain {
+        width: 40vw;
         opacity: 1;
         margin-left: 80px;
-    }
+    } 
+
 
     .mapTextsLeft h1, .mapTextsRight h1 {
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
 
      .mapTextsLeft h2, .mapTextsRight h2 {
-        font-size: 5vw;
+        font-size: 3.8vw;
     }
 
     .mapTextsLeft {
