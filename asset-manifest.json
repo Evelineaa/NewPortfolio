@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NewPortfolio/static/css/main.92812d9d.css",
+    "main.css": "/NewPortfolio/static/css/main.5a57fa57.css",
     "main.js": "/NewPortfolio/static/js/main.ca265e62.js",
     "static/js/453.1407b060.chunk.js": "/NewPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/ValenciaViews.jpg": "/NewPortfolio/static/media/ValenciaViews.21f9b83910506b348552.jpg",
@@ -29,12 +29,12 @@
     "static/media/PlaneTicket.png": "/NewPortfolio/static/media/PlaneTicket.b6975a62ef0879139995.png",
     "static/media/EmptyFinlandMap.png": "/NewPortfolio/static/media/EmptyFinlandMap.4aec279bf00adf65359e.png",
     "index.html": "/NewPortfolio/index.html",
-    "main.92812d9d.css.map": "/NewPortfolio/static/css/main.92812d9d.css.map",
+    "main.5a57fa57.css.map": "/NewPortfolio/static/css/main.5a57fa57.css.map",
     "main.ca265e62.js.map": "/NewPortfolio/static/js/main.ca265e62.js.map",
     "453.1407b060.chunk.js.map": "/NewPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92812d9d.css",
+    "static/css/main.5a57fa57.css",
     "static/js/main.ca265e62.js"
   ]
 }
