@@ -4,8 +4,6 @@ import JofferTwo from './Pictures/JofferPicture2.png'
 import JofferThree from './Pictures/JofferPicture3.png'
 import Github from './Pictures/GithubLinkToJoffer.png'
 import Linkedin from './Pictures/LinkedinLinkToJofferPost.png'
-import { useState } from 'react';
-import { useRef } from 'react';
 import MainHeader from './Components/MainHeader';
 
 
@@ -64,9 +62,11 @@ function NetherlandsProject() {
             <div className='LinkButtons'>
                 <button onClick={() => window.open('https://github.com/Joffer-Project/JofferMobile', '_blank', 'noopener,noreferrer')}>
                     <img src={Github} />
+                    <h1> Github </h1>
                 </button>
                 <button onClick={() => window.open('https://www.linkedin.com/posts/millapohjolainen_olemme-pyrkineet-avaamaan-uuden-luvun-ty%C3%B6nhaussa-activity-7191880366515769344-Iq6b?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1j6sYBbYvyPGNwNXFKuUQZfB9lyB1b-C0', '_blank', 'noopener,noreferrer')}>
                     <img src={Linkedin} />
+                    <h1> Joffer post</h1>
                 </button>
             </div>
         </div>

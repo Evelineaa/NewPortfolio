@@ -1,0 +1,139 @@
+.sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.travelPhotos {
+    margin-top: 50px;
+}
+
+.travelPhotos img{
+  width: 100%;
+  height: auto;
+}
+
+.alignFont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    font-family: "Beiruti", sans-serif;
+}
+
+.alignFont h1 {
+    font-size: 2.5vw;
+}
+
+.alignFont h2 {
+    font-size: 1.8vw;
+}
+
+.alignFont h3 {
+    font-size: 1.3vw;
+    margin-top: -20px;
+}
+
+.alignFont p {
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.linkedin {
+    background-color: transparent;
+    border: none;
+    margin-top: 30px;
+}
+
+.linkedin h2 {
+    font-family: "Beiruti", sans-serif;
+    font-size: 1.5vw;
+}
+
+.linkedin img {
+    margin-top: 2px;
+    width: 7vw;
+    height: auto;
+}
+
+
+.CoursesGreyLine {
+    width: 40%;
+    height: 3px;
+    background-color: rgba(178, 178, 178, 0.683);
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .travelPhotos img{
+        width: 100%;
+        height: auto;
+    }
+
+    .alignFont {
+        margin-top: -80px;
+    }
+
+    .alignFont h1 {
+        font-size: 3.5vw;
+    }
+
+    .alignFont h2 {
+        font-size: 3vw;
+    }
+
+    .alignFont h3 {
+        margin-top: 5px; 
+         font-size: 2.8vw;
+    }
+
+    .alignFont p {
+        font-size: 2.4vw;
+    }
+
+    .linkedin img {
+        margin-top: 1vw;
+        width: 10vw;
+        height: auto;
+    }
+
+    .CoursesGreyLine {
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+
+
+}
+
+@media only screen and (max-width: 450px) {
+    .alignFont h1 {
+        font-size: 5vw;
+    }
+
+    .alignFont h2 {
+        font-size: 4vw;
+    }
+
+    .alignFont p {
+        font-size: 2.5vw;
+    }
+
+
+    .backgroundInfoOne img {
+        width: 30vw;
+        height: 70vw;
+    }
+
+    .LinkButtons {
+        margin-left: 12vw;
+    }
+     .CoursesGreyLine {
+        margin-top: 10px;
+        margin-bottom: 80px;
+        height: 1px;
+    }
+}

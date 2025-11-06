@@ -37,13 +37,14 @@
 }
 
 .yearImages img {
+    width: 100%;
     align-items: center;
 }
 
 .year {
     position: absolute;
     font-family: "Beiruti", sans-serif;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.857);
 }
@@ -57,7 +58,7 @@
     justify-content: center;
     text-align: center;
     font-family: "Beiruti", sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 500;
     background-color: rgba(0, 0, 0, 0.78);
     width: 100%;

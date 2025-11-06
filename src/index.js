@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import ProjectsMenu from './ProjectsMenu';
 import NetherlandsProject from './NetherlandsProject.js';
+import Spain from './Spain.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
         <Route path="/GetYourTicket" element={<GetYourTicket />} />
         <Route path="/MeetMe" element={<MeetMe />} />
         <Route path="/Projects/ProjectsMenu/NetherlandsProject" element={<NetherlandsProject />} />
+        <Route path="/Projects/ProjectsMenu/Spain" element={<Spain />} />
       </Routes>
     </Router>
   </React.StrictMode>

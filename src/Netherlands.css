@@ -5,9 +5,9 @@
 }
 
 .sections {
- display: flex;
- flex-direction: column;
- margin: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 150px 0px 0px 0px;
 }
 
 .backgroundInfoOne {
@@ -23,15 +23,15 @@
     font-family: "Beiruti", sans-serif;
 }
 
-.alignText h1{
+.alignText h1 {
     font-size: 2.5vw;
 }
 
-.alignText h2{
+.alignText h2 {
     font-size: 1.8vw;
 }
 
-.alignText p{
+.alignText p {
     font-size: 1.5vw;
     font-weight: 300;
 }
@@ -45,7 +45,7 @@
 }
 
 
-.backgroundInfoOne img{
+.backgroundInfoOne img {
     width: 20vw;
     height: 45vw;
     margin: 30px 0px 0px 0px;
@@ -58,64 +58,71 @@
     gap: 40px;
 }
 
-.LinkButtons button img{
-    width: 5vw;    
+.LinkButtons button {
+    background-color: transparent;
+    border: none;
 }
 
-.LinkButtons button{
-background-color: transparent;
-border: none;       
+.LinkButtons button img {
+    margin-top: 100px;
+    width: 7vw;
+    height: auto;
+}
+
+
+.LinkButtons h1 {
+    font-family: "Beiruti", sans-serif;
+    font-size: 1.5vw;
 }
 
 
 @media only screen and (max-width: 800px) {
-    .backgroundBox{
-       margin-top: 50px;
+    .backgroundBox {
+        margin-top: 50px;
     }
+
     .marginsOne {
-    padding-right: 50px;
+        padding-right: 50px;
     }
+
     .marginsTwo {
         padding-top: 20px;
         padding-left: 50px;
     }
-    .LinkButtons {
-        gap: 10px;
+
+    .alignText h1 {
+        font-size: 3.5vw;
     }
-    
-.alignText h1{
-    font-size: 3.5vw;
-}
 
-.alignText h2{
-    font-size: 3vw;
-}
+    .alignText h2 {
+        font-size: 3vw;
+    }
 
-.alignText p{
-    font-size: 2vw;
-}
+    .alignText p {
+        font-size: 2vw;
+    }
 }
 
 @media only screen and (max-width: 450px) {
-.alignText h1{
-    font-size: 5vw;
-}
+    .alignText h1 {
+        font-size: 5vw;
+    }
 
-.alignText h2{
-    font-size: 4vw;
-}
+    .alignText h2 {
+        font-size: 4vw;
+    }
 
-.alignText p{
-    font-size: 2.5vw;
-}
+    .alignText p {
+        font-size: 2.5vw;
+    }
 
 
-.backgroundInfoOne img{
-    width: 30vw;
-    height: 70vw;
-}
+    .backgroundInfoOne img {
+        width: 30vw;
+        height: 70vw;
+    }
 
-.LinkButtons{
-    margin-left: 12vw;
-}
+    .LinkButtons {
+        margin-left: 12vw;
+    }
 }

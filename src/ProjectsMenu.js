@@ -1,7 +1,6 @@
 import './Projects.css';
 import MainHeader from './Components/MainHeader';
 import { useNavigate } from 'react-router-dom';
-import { useState } from 'react';
 import EmptySpain from './Pictures/EmptySpanishMap.png'
 import EmptyNetherlands from './Pictures/EmptyNetherlandsMap.png'
 import EmptyNorthernIreland from './Pictures/EmptyNorthernIrelandMap.png'
@@ -13,8 +12,6 @@ import Finland from './Pictures/FinlandMap.png'
 
 function ProjectsMenu() {
   const navigate = useNavigate();
-  const [showImage, setShowImage] = useState(true);
-  const [fadeImage, setFadeImage] = useState(false);
 
   return (
     <div>
@@ -23,7 +20,7 @@ function ProjectsMenu() {
           <MainHeader theme='dark'></MainHeader>
           <div >
             <div className='mapButtons'>
-              <button className='spain'>
+              <button className='spain' onClick={() => navigate('/Projects/ProjectsMenu/Spain')}>
                 <div className='mapTextsLeft'>
                   <h1>Spain 2025</h1>
                   <h2>Exchange and studies</h2>
