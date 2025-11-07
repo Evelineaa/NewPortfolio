@@ -10,9 +10,9 @@
     margin-top: 50px;
 }
 
-.travelPhotos img{
-  width: 100%;
-  height: auto;
+.travelPhotos img {
+    width: 100%;
+    height: auto;
 }
 
 .alignFont {
@@ -55,7 +55,7 @@
 
 .linkedin img {
     margin-top: 2px;
-    width: 7vw;
+    width: 6vw;
     height: auto;
 }
 
@@ -67,12 +67,42 @@
     margin-bottom: 50px;
 }
 
+.nextButton {
+    margin-bottom: 50px;
+}
+
+.buttonInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 2.5vw;
+    margin-left: 20px;
+}
+
+.buttonInfo h4 {
+    margin-right: 10px;
+}
+
+.buttonInfo img {
+    width: 20%;
+}
+
+.nextButton button {
+    width: 10vw;
+    height: 3vw;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 1.3vw;
+    font-family: "Beiruti", sans-serif;
+}
+
 @media only screen and (max-width: 1000px) {
     .spainSections {
         margin-top: 150px;
     }
 
-    .travelPhotos img{
+    .travelPhotos img {
         width: 100%;
         height: auto;
     }
@@ -90,8 +120,8 @@
     }
 
     .alignFont h3 {
-        margin-top: 5px; 
-         font-size: 2.8vw;
+        margin-top: 5px;
+        font-size: 2.8vw;
     }
 
     .alignFont p {
@@ -100,7 +130,7 @@
 
     .linkedin img {
         margin-top: 1vw;
-        width: 10vw;
+        width: 8vw;
         height: auto;
     }
 
@@ -109,11 +139,19 @@
         margin-bottom: 150px;
     }
 
+    .nextButton button {
+        width: 20vw;
+        height: 5vw;
+        font-size: 2.4vw;
+    }
+    .nextButton {
+        margin-top: -80px;
+    }
 
 }
 
 @media only screen and (max-width: 800px) {
-    .travelPhotos img{
+    .travelPhotos img {
         width: 100%;
         height: auto;
     }
@@ -131,8 +169,8 @@
     }
 
     .alignFont h3 {
-        margin-top: 5px; 
-         font-size: 3.3vw;
+        margin-top: 5px;
+        font-size: 3.3vw;
     }
 
     .alignFont p {
@@ -145,16 +183,25 @@
         height: auto;
     }
 
-    .linkedin h2{
+    .linkedin h2 {
         font-size: 3vw;
     }
 
-     .CoursesGreyLine {
+    .CoursesGreyLine {
         margin-top: 10px;
         margin-bottom: 140px;
         height: 2px;
     }
 
+    .nextButton button {
+        width: 25vw;
+        height: 6vw;
+        font-size: 2.6vw;
+    }
+
+    .nextButton {
+        margin-top: -80px;
+    }
 
 }
 
@@ -179,9 +226,20 @@
     .linkedin {
         margin-bottom: 10vw;
     }
-     .CoursesGreyLine {
+
+    .CoursesGreyLine {
         margin-top: 10px;
         margin-bottom: 140px;
         height: 1px;
+    }
+
+    .nextButton button {
+        width: 34vw;
+        height: 7.5vw;
+        font-size: 3.2vw;
+    }
+
+    .nextButton {
+        margin-top: -100px;
     }
 }

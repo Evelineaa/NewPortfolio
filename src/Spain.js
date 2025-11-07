@@ -3,10 +3,14 @@ import School from './Pictures/ValenciaProjectSchoolArea.jpg'
 import Views from './Pictures/ValenciaViews.jpg'
 import ViewsTwo from './Pictures/ValenciaViewsTwo.jpg'
 import Linkedin from './Pictures/LinkedinLinkToJofferPost.png'
+import ArrowIcon from './Pictures/ArrowIcon.png'
 import MainHeader from './Components/MainHeader';
+import { useNavigate } from 'react-router-dom';
 
 
-function NetherlandsProject() {
+function SpainProject() {
+      const navigate = useNavigate();
+
 
     return (
         <div className='backgroundBox'>
@@ -80,9 +84,17 @@ It also helped me understand how decision-making can be guided by data rather th
                     </p>
                 </div>
                 <div className='CoursesGreyLine'></div>
+                <div className='nextButton'>
+                    <button onClick={() => navigate('/Projects/ProjectsMenu/NetherlandsProject')}>
+                        <div className='buttonInfo'>
+                        <h4>Next project</h4>
+                        <img src={ArrowIcon}/>
+                        </div>
+                    </button>
+                </div>
             </div>
         </div>
     );
 };
 
-export default NetherlandsProject;
+export default SpainProject;
