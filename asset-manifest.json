@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NewPortfolio/static/css/main.2dd9f3ee.css",
-    "main.js": "/NewPortfolio/static/js/main.40c03c5a.js",
+    "main.css": "/NewPortfolio/static/css/main.8f1d9f73.css",
+    "main.js": "/NewPortfolio/static/js/main.9d628bef.js",
     "static/js/453.1407b060.chunk.js": "/NewPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/ValenciaViews.jpg": "/NewPortfolio/static/media/ValenciaViews.21f9b83910506b348552.jpg",
     "static/media/ValenciaProjectSchoolArea.jpg": "/NewPortfolio/static/media/ValenciaProjectSchoolArea.77b1867a4502fe50244d.jpg",
@@ -29,12 +29,12 @@
     "static/media/PlaneTicket.png": "/NewPortfolio/static/media/PlaneTicket.b6975a62ef0879139995.png",
     "static/media/EmptyFinlandMap.png": "/NewPortfolio/static/media/EmptyFinlandMap.4aec279bf00adf65359e.png",
     "index.html": "/NewPortfolio/index.html",
-    "main.2dd9f3ee.css.map": "/NewPortfolio/static/css/main.2dd9f3ee.css.map",
-    "main.40c03c5a.js.map": "/NewPortfolio/static/js/main.40c03c5a.js.map",
+    "main.8f1d9f73.css.map": "/NewPortfolio/static/css/main.8f1d9f73.css.map",
+    "main.9d628bef.js.map": "/NewPortfolio/static/js/main.9d628bef.js.map",
     "453.1407b060.chunk.js.map": "/NewPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dd9f3ee.css",
-    "static/js/main.40c03c5a.js"
+    "static/css/main.8f1d9f73.css",
+    "static/js/main.9d628bef.js"
   ]
 }
